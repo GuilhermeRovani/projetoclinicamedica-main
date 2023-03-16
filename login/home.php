@@ -59,7 +59,7 @@
                 aria-expanded="false">Agenda</a>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Agendar Consulta</a>
-                <a class="dropdown-item" href="../cadastromedico/index.php">Pacientes Agendados</a>
+                <a class="dropdown-item" href="../cadastropaciente/index.php">Pacientes Cadastrados</a>
                 <!-- <a class="dropdown-item" href="#">Controle de Pacientes</a> -->
             </div>
         </li>

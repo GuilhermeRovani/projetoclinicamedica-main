@@ -28,14 +28,15 @@
 </head>
 
 <body>
+    <header>
     <div class="background"></div>
 
     <nav class="navbar navbar-light" style="background-color: #0f3e96;">
-        <a class="navbar-brand" style="color: #fff" href="#">JGPQ</a>
+        <a class="navbar-brand" style="color: #fff" href="../login/home.php">JGPQ</a>
         <form class="form-inline">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" style="color: #fff" href="index.php">Sair</a>
+                    <a class="nav-link" style="color: #fff" href="../login/index.php">Sair</a>
                 </li>
             </ul>
         </form>
@@ -46,7 +47,7 @@
 
     <ul class="nav nav-tabs">
         <li class="nav-item">
-             <a class="nav-link active" href="home.php">Home</a>
+             <a class="nav-link active" href="../login/home.php">Home</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -76,22 +77,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -103,6 +88,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    </header>
 </body>
 
 </html>
