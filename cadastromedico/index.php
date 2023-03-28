@@ -16,7 +16,10 @@ include_once '../conexao.php';
 </head>
 
 <body>
-  <?php require_once"../templates/menu.php";?>
+<div class="main">
+      <?php
+      include("../templates/menu.php")
+      ?>
   <h1>Lista de Médicos</h1>
 
   <table class="table table-stripped">

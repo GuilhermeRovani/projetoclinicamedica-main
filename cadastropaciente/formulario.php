@@ -15,7 +15,10 @@ session_start();
 </head>
 
 <body>
-  <?php require_once"../templates/menu.php";?>
+<div class="main">
+      <?php
+      include("../templates/menu.php")
+      ?>
 
   <form action="salvar_paciente.php" method="POST">
     <div class="form-row">
